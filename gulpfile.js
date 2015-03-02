@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var webpack = require('gulp-webpack');
 var rename = require('gulp-rename');
 var bump = require('gulp-bump');
-var jasmine = require('gulp-jasmine');
 
 gulp.task('package', function () {
   return gulp.src('src/index.js')
