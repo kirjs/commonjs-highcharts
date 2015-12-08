@@ -7,7 +7,7 @@ The reason why this project is better is because little robot updates this packa
 # Installation
 
 ```bash
-npm install highcharts --save
+npm install commonjs-highcharts --save
 ```
 
 # Usage
