@@ -10245,7 +10245,10 @@
 			// Start the event listener to pick up the tooltip 
 			if (tooltip && !pointer._onDocumentMouseMove) {
 				pointer._onDocumentMouseMove = function (e) {
-					pointer.onDocumentMouseMove(e);
+					if(pointer.onDocumentMouseMove){
+						pointer.onDocumentMouseMove(e);
+					}
+
 				};
 				addEvent(doc, 'mousemove', pointer._onDocumentMouseMove);
 			}
