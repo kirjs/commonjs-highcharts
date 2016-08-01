@@ -1,5 +1,5 @@
 {
-  "name": "commonjs-highcharts",
+  "name": "commonjs-highcharts-clicktale",
   "version": "4.0.3",
   "description": "Allows to require highcharts with webpack or browserify",
   "main": "index.js",
